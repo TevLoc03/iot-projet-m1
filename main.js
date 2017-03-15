@@ -10,6 +10,7 @@ function createWindow () {
   // Create the browser window.
   win = new BrowserWindow({
     //fullscreen: true
+    skipTaskbar: true,
     width: 480, height: 320
   })
 

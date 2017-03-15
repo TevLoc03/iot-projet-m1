@@ -10,12 +10,14 @@
     var $writeNom = $('.write#nom');
 
     $('.write#prenom').click(function(){
+        $('.sub').hide();
         $('.write#nom').removeClass('selected');
         $(this).addClass('selected');
     });
     $('.write#nom').click(function(){
         $('.write#prenom').removeClass('selected');
         $(this).addClass('selected');
+        $('.sub').hide();
     });
 
     $('#keyboard li').click(function(){
@@ -29,6 +31,13 @@
                     $writePrenom.val(html1.substr(0, html1.length - 1));
                     return false;
                 }
+
+                 //Envoyer 
+                if ($this.hasClass('go')){
+                    $('#clavier').hide();
+                    $('.sub').show();
+                    character = '';
+                }
                 // Ajouter caractère
                 $writePrenom.val($writePrenom.val() + character);
             } 
@@ -38,6 +47,13 @@
                     var html2 = $writeNom.val(); 
                     $writeNom.val(html2.substr(0, html2.length - 1));
                     return false;
+                }
+
+                 //Envoyer 
+                if ($this.hasClass('go')){
+                    $('#clavier').hide();
+                    $('.sub').show();
+                    character = '';
                 }
                 // Ajouter caractère
                 $writeNom.val($writeNom.val() + character);

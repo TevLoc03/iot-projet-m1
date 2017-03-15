@@ -47,6 +47,11 @@ body {
 .lastitem {
     margin-right: 0;
 }
+.go {
+    background: #286090 !important;
+    color:white;
+    width: 80px !important;
+}
 .uppercase {
     text-transform: uppercase;
 }
