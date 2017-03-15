@@ -3,7 +3,7 @@
 padding: 0;
 }
 body {
-    font: 71%/1.5 Verdana, Sans-Serif;
+    font-family: Verdana, Sans-Serif;
     background: #eee;
 }
 #clavier {
@@ -50,7 +50,7 @@ body {
 .go {
     background: #286090 !important;
     color:white;
-    width: 80px !important;
+    width: 100px !important;
 }
 .uppercase {
     text-transform: uppercase;
