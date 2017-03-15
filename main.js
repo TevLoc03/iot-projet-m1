@@ -11,6 +11,7 @@ function createWindow () {
   win = new BrowserWindow({
     //fullscreen: true
     skipTaskbar: true,
+    autoHideMenuBar: true,
     width: 480, height: 320
   })
 
