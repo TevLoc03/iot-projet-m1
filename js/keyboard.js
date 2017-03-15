@@ -51,7 +51,7 @@
 
                  //Envoyer 
                 if ($this.hasClass('go')){
-                    $('#clavier').slideDown();
+                    $('#clavier').hide();
                     $('.sub').show();
                     character = '';
                 }
