@@ -5,6 +5,11 @@
         $('#clavier').slideToggle('display');
     });
     
+    //Validation
+    $('.sub').click(function(){
+        window.location.href = "scan.html";
+    });
+
     //Selecteur
     var $writePrenom = $('.write#prenom');
     var $writeNom = $('.write#nom');
