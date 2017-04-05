@@ -76,12 +76,12 @@ body {
     top: 5px;
     position: absolute;
 }
-#index-btn-1, #index-btn-2 {
+#go-scan, #go-signin {
     padding: 15px;
     width: 48.4%;
     margin-right: 5px;
 }
-#index-btn-1 {
+#go-scan {
     margin-left: 5px;
 }
 
@@ -95,7 +95,7 @@ body {
     background-color: #ea7362;
     border-color: #ea7362;
 }
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:link{
     background-color: #b74242;
     border-color: #b74242;
 }
