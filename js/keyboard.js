@@ -73,7 +73,7 @@
                 // Supprime
                 if ($this.hasClass('delete')) {
                     var html3 = $writeCode.val(); 
-                    $writeCode.val(html2.substr(0, html3.length - 1));
+                    $writeCode.val(html3.substr(0, html3.length - 1));
                     return false;
                 }
 

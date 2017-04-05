@@ -16,12 +16,36 @@
  <div class="container">
     <h1 class="text-center">Tableau de bord</h1>
     <div class="row">
-        <button class="col-xs-5 text-right btn btn-primary" id="go-scan" >Sélection capsule</button>
-        <button class="col-xs-5 text-left btn btn-primary" id="go-signin">Inscrivez vous</button>
+        <div class="col-xs-6 text-center">
+            <img src="../img/capsule-1.png" width="100" height="50">
+            <div class="variations_button more">
+				<div class="quantity">
+                    <input type="number" step="1" name="quantity" value="1" title="Qté" class="input-text qty text" size="4" min="1">
+                    <div class="qt-buttons">
+                        <span class="plus"><i class="fa fa-plus"></i></span>
+                        <span class="minus"><i class="fa fa-minus"></i></span>
+                    </div>
+				</div>
+                <button class="btn btn-primary">Ajouter capsule</button>
+            </div>
+        </div>
+        <div class="col-xs-6 text-center">
+            <img src="../img/capsule-2.png" width="100" height="50">
+            <div class="variations_button more">
+				<div class="quantity">
+                    <input type="number" step="1" name="quantity" value="1" title="Qté" class="input-text qty text" size="4" min="1">
+                    <div class="qt-buttons">
+                        <span class="plus"><i class="fa fa-plus"></i></span>
+                        <span class="minus"><i class="fa fa-minus"></i></span>
+                    </div>
+				</div>
+                <button class="btn btn-primary">Ajouter capsule</button>
+            </div>
+        </div>
     </div>
  </div>
 
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
-    <script type="text/javascript" src="js/default.js"></script>
+    <script type="text/javascript" src="../js/default.js"></script>
 </body>
 </html>

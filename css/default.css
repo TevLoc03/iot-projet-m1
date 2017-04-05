@@ -1,3 +1,4 @@
+/*CSS CLAVIER */
 * {
     margin: 0;
     padding: 0;
@@ -70,7 +71,7 @@ body {
     cursor: pointer;
 }
 
-/*INDEX */
+/* CSS Perso */
 #btn-admin {
     right: 5px;
     top: 5px;
@@ -102,4 +103,35 @@ body {
 .btn-info {
     background-color: #5c2626;
     border-color: #5c2626;
+}
+
+.qt-buttons {
+    width: 20px;
+    height: 40px;
+    background: #ea7362;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.qt-buttons span {
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    float: left;
+    cursor: pointer;
+    padding: 1px 0 0 0;
 }
