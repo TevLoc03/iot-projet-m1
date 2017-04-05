@@ -1,10 +1,10 @@
 * {
     margin: 0;
-padding: 0;
+    padding: 0;
 }
 body {
     font-family: Verdana, Sans-Serif;
-    background: #eee;
+    background: #ffd6b6;
 }
 #clavier {
     display: none;
@@ -68,4 +68,38 @@ body {
     left: 1px;
     border-color: #e5e5e5;
     cursor: pointer;
+}
+
+/*INDEX */
+#btn-admin {
+    right: 5px;
+    top: 5px;
+    position: absolute;
+}
+#index-btn-1, #index-btn-2 {
+    padding: 15px;
+    width: 48.4%;
+    margin-right: 5px;
+}
+#index-btn-1 {
+    margin-left: 5px;
+}
+
+.btn-warning {
+    background-color: #b74242;
+}
+.btn-warning:hover {
+    background-color: #5c2626;
+}
+.btn-primary {
+    background-color: #ea7362;
+    border-color: #ea7362;
+}
+.btn-primary:hover {
+    background-color: #b74242;
+    border-color: #b74242;
+}
+.btn-info {
+    background-color: #5c2626;
+    border-color: #5c2626;
 }
