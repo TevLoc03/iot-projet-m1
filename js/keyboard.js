@@ -13,6 +13,7 @@
     //Selecteur
     var $writePrenom = $('.write#prenom');
     var $writeNom = $('.write#nom');
+    var $writeCode = $('.write#code-carte');
 
     $('.write#prenom').click(function(){
         $('.sub').hide();
@@ -21,6 +22,11 @@
     });
     $('.write#nom').click(function(){
         $('.write#prenom').removeClass('selected');
+        $(this).addClass('selected');
+        $('.sub').hide();
+    });
+
+    $('.write#code-carte').click(function(){
         $(this).addClass('selected');
         $('.sub').hide();
     });
@@ -62,5 +68,22 @@
                 }
                 // Ajouter caractère
                 $writeNom.val($writeNom.val() + character);
+            } 
+            else if ($writeCode.hasClass('selected')){
+                // Supprime
+                if ($this.hasClass('delete')) {
+                    var html3 = $writeCode.val(); 
+                    $writeCode.val(html2.substr(0, html3.length - 1));
+                    return false;
+                }
+
+                 //Envoyer 
+                if ($this.hasClass('go')){
+                    $('#clavier').hide();
+                    $('.sub').show();
+                    character = '';
+                }
+                // Ajouter caractère
+                $writeCode.val($writeCode.val() + character);
             }
     });
