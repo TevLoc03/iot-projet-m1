@@ -96,7 +96,7 @@ body {
     background-color: #ea7362;
     border-color: #ea7362;
 }
-.btn-primary:hover, .btn-primary:link{
+.btn-primary:hover, .btn-primary:link, .btn-primary:focus{
     background-color: #b74242;
     border-color: #b74242;
 }
